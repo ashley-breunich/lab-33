@@ -1,15 +1,13 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Lab 33
 
-### Author: Student/Group Name
+### Ashley Breunich
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://github.com/ashley-breunich/lab-33)
+* [code sandbox](https://codesandbox.io/s/ww7690x92l)
 
 ### Modules
 #### `modulename.js`
@@ -21,17 +19,6 @@ Usage Notes or examples
 ###### `bar(array) -> array`
 Usage Notes or examples
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
 
 #### Tests
 * How do you run tests?
