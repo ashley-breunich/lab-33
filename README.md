@@ -10,14 +10,39 @@
 * [code sandbox URL](https://codesandbox.io/s/ww7690x92l)
 
 ### Modules
-#### `modulename.js`
+
+#### `index.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `CLASS Main -> Provider`
+--> App Component
 
-###### `bar(array) -> array`
-Usage Notes or examples
+The app component is wrapped in the store allowing the entire program to have access to Redux. 
+
+
+#### `app.js`
+##### Exported Values and Methods
+
+###### `CLASS App`
+<-- props
+
+--> GetPeople Component
+
+--> PeopleList Component
+
+--> Modal Component 
+
+The app class manages each component that visually makes up the app. 
+
+###### `mapStateToProps()`
+<-- store
+
+--> people, person
+
+###### `mapDispatchToProps()`
+<-- dispatch, getState
+
+--> get, getPerson
 
 
 #### Tests
