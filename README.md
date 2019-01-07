@@ -14,7 +14,7 @@
 #### `index.js`
 ##### Exported Values and Methods
 
-###### `CLASS Main -> Provider`
+###### `CLASS Main`
 --> App Component
 
 The app component is wrapped in the store allowing the entire program to have access to Redux. 
@@ -33,6 +33,72 @@ The app component is wrapped in the store allowing the entire program to have ac
 --> Modal Component 
 
 The app class manages each component that visually makes up the app. 
+
+###### `mapStateToProps()`
+<-- store
+
+--> people, person
+
+###### `mapDispatchToProps()`
+<-- dispatch, getState
+
+--> get, getPerson
+
+
+#### `lib/utils.js`
+##### Exported Values and Methods
+
+###### `fetchData()`
+<-- URL
+
+--> Superagent get request: results.body
+
+
+#### `components/getPeople.js`
+##### Exported Values and Methods
+
+###### `getPeople()`
+<-- props
+
+--> header
+
+###### `mapStateToProps()`
+<-- store
+
+--> people, person
+
+###### `mapDispatchToProps()`
+<-- dispatch, getState
+
+--> get, getPerson
+
+
+#### `components/peopleList.js`
+##### Exported Values and Methods
+
+###### `peopleList()`
+<-- props
+
+--> ul: Each name from the Starwars API
+
+###### `mapStateToProps()`
+<-- store
+
+--> people, person
+
+###### `mapDispatchToProps()`
+<-- dispatch, getState
+
+--> get, getPerson
+
+
+#### `components/modal.js`
+##### Exported Values and Methods
+
+###### `Modal()`
+<-- props
+
+--> div
 
 ###### `mapStateToProps()`
 <-- store
