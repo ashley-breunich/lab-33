@@ -111,6 +111,83 @@ The app class manages each component that visually makes up the app.
 --> get, getPerson
 
 
+#### `store/middleware/reporter.js`
+##### Exported Values and Methods
+
+###### `export default`
+<-- store, next, action
+
+--> result (console log of the current state); or an error 
+
+
+#### `store/middleware/thunk.js`
+##### Exported Values and Methods
+
+###### `export default`
+<-- store, next, action
+
+--> action(store.dispatch, store.getState)
+
+
+#### `store/index.js`
+##### Exported Values and Methods
+
+###### `export default`
+--> people, person
+
+This file creates the stores with the reducers that we declared.
+
+
+#### `store/people-actions.js`
+##### Exported Values and Methods
+
+###### `get()`
+<-- url, dispatch
+
+--> data from fetchData() function
+
+###### `dispatchedGet()`
+<-- payload
+
+--> type: "GET_PEOPLE"
+
+--> payload
+
+
+#### `store/peopleReducer.js`
+##### Exported Values and Methods
+
+###### `export default`
+<-- state, action
+
+--> payload.results OR initialState
+
+
+#### `store/person-actions.js`
+##### Exported Values and Methods
+
+###### `getPersonDetails()`
+<-- url, dispatch
+
+--> data from fetchData() function
+
+###### `dispatchedGet()`
+<-- payload
+
+--> type: "GET_PERSON"
+
+--> payload
+
+
+#### `store/personReducer.js`
+##### Exported Values and Methods
+
+###### `export default`
+<-- state, action
+
+--> payload OR state
+
+
 #### Tests
 * How do you run tests?
 * What assertions were made?
