@@ -1,13 +1,13 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Lab 33
+## Lab 33: Remote APIs
 
 ### Ashley Breunich
 
 ### Links and Resources
-* [repo](https://github.com/ashley-breunich/lab-33)
-* [code sandbox](https://codesandbox.io/s/ww7690x92l)
+* [lab repo](https://github.com/ashley-breunich/lab-33)
+* [code sandbox URL](https://codesandbox.io/s/ww7690x92l)
 
 ### Modules
 #### `modulename.js`
