@@ -193,4 +193,4 @@ This file creates the stores with the reducers that we declared.
 * What assertions need to be / should be made? - I need to figure out how to test state. 
 
 #### UML
-Link to an image of the UML for your application and response to events
+[UML]('assets/lab-33-UML.jpg')
