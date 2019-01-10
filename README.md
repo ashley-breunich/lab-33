@@ -189,7 +189,6 @@ This file creates the stores with the reducers that we declared.
 
 
 #### Tests
-* How do you run tests?
 * What assertions were made?
 * What assertions need to be / should be made?
 
