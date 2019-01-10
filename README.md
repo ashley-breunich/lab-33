@@ -189,8 +189,8 @@ This file creates the stores with the reducers that we declared.
 
 
 #### Tests
-* What assertions were made?
-* What assertions need to be / should be made?
+* What assertions were made? - I tested to make sure that the correct components that were supposed to be rendering were actually rendering. 
+* What assertions need to be / should be made? - I need to figure out how to test state. 
 
 #### UML
 Link to an image of the UML for your application and response to events
